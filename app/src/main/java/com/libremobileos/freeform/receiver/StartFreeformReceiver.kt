@@ -86,10 +86,10 @@ class StartFreeformReceiver : BroadcastReceiver() {
                 val screenWidth = context.resources.displayMetrics.widthPixels
                 val screenHeight = context.resources.displayMetrics.heightPixels
                 val screenDensityDpi = context.resources.displayMetrics.densityDpi
-                val freeformWidth = sp.getInt("freeform_width", (screenWidth * 0.8).roundToInt())
-                .coerceAtMost(INITIAL_MAX_WIDTH)
-                val freeformHeight = sp.getInt("freeform_height", (screenHeight * 0.5).roundToInt())
-                .coerceAtMost(INITIAL_MAX_HEIGHT)
+                val freeformWidth = sp.getInt("freeform_width", (screenWidth * 0.7f).roundToInt())
+                    .coerceAtMost(INITIAL_MAX_WIDTH)
+                val freeformHeight = sp.getInt("freeform_height", (screenHeight * 0.4f).roundToInt())
+                    .coerceAtMost(INITIAL_MAX_HEIGHT)
                 LMOFreeformServiceManager.createWindow(
                     packageName,
                     activityName,
