@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Sidebar</string>
+
+    <!--SettingsFragment-->
+    <string name="enable_sideline">启用侧边栏</string>
+    <string name="sidebar_label">侧边栏</string>
+    <string name="sidebar_summary">在浮动窗口中快速打开应用</string>
+    <string name="sidebar_app_setting_label">固定应用</string>
+    <string name="sidebar_settings_description">打开侧边栏设置</string>
+    <string name="sidebar_predicted_apps">显示应用建议</string>
+    <string name="sidebar_predicted_apps_summary">在固定应用下方显示最多 6 个推荐应用</string>
+    <string name="sidebar_auto_enable_selected_apps">为选定应用自动启用侧边栏</string>
+    <string name="sidebar_auto_enable_selected_apps_summary">启动已配置应用时自动显示侧边栏</string>
+    <string name="sidebar_per_app_config">配置应用</string>
+    <string name="sidebar_per_app_config_summary">选择应自动启用侧边栏的应用</string>
+
+    <!-- Sidebar customization -->
+    <string name="sidebar_customization_title">侧边栏自定义</string>
+
+    <!-- Sections -->
+    <string name="sidebar_section_slider">滑块设置</string>
+    <string name="sidebar_section_layout">布局设置</string>
+    <string name="sidebar_section_visual">视觉效果</string>
+
+    <!-- Slider settings -->
+    <string name="sidebar_transparency_value">透明度: %1$.2f</string>
+    <string name="sidebar_length_value">滑块长度: %1$d px</string>
+    <string name="sidebar_position_label">位置</string>
+    <string name="sidebar_left">左侧</string>
+    <string name="sidebar_right">右侧</string>
+
+    <!-- Layout settings -->
+    <plurals name="sidebar_columns_value">
+        <item quantity="one">%1$d 列</item>
+        <item quantity="other">%1$d 列</item>
+    </plurals>
+    <string name="sidebar_icon_size_value">图标大小: %1$d dp</string>
+    <string name="sidebar_icon_padding_value">图标边距: %1$d dp</string>
+    <string name="sidebar_icon_padding_summary">每个图标周围的间距</string>
+    <string name="sidebar_column_spacing_value">列间距: %1$d dp</string>
+    <string name="sidebar_column_spacing_summary">列与列之间的间距</string>
+    <string name="sidebar_corner_radius_value">圆角半径: %1$d dp</string>
+    <string name="sidebar_bg_transparency_value">背景透明度: %1$.2f</string>
+    <string name="sidebar_reset_defaults">恢复默认设置</string>
+
+    <!-- Visual effects -->
+    <string name="sidebar_drop_shadow_title">阴影效果</string>
+    <string name="sidebar_drop_shadow_summary">为侧边栏添加阴影效果</string>
+</resources>
